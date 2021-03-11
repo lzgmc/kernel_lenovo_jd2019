@@ -61,7 +61,6 @@
 			     &nfc_enable_active
 			     &nfc_clk_default>;
 		pinctrl-1 = <&nfc_int_suspend &nfc_enable_suspend>;
-		qcom,clk-src = "BBCLK3";
 		clocks = <&clock_rpmh RPMH_LN_BB_CLK3>;
 		clock-names = "ref_clk";
 		status = "disabled";
